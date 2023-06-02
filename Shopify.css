@@ -1,0 +1,555 @@
+@import url(//db.onlinewebfonts.com/c/f5e745006bde1613ea8dc41d713bf031?family=Shopify+Sans+Web+Regular);
+@font-face {font-family: "Shopify Sans Web Regular"; src: url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot"); src: url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff") format("woff"), url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.svg#Shopify Sans Web Regular") format("svg"); }
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 3050px;
+}
+.topnot{
+    position: relative;
+    left: 0px;
+    bottom: 18px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Shopify Sans Web Regular';
+    background-color: #E5FBBA;
+    height: 68px;
+    font-size: 18px;
+
+}
+.topnot p{
+padding-top: 20px;
+}
+.topnot a{
+    color: black;
+    font-weight: bold;
+}
+.topnot a:hover{
+    text-decoration: none;
+}
+#closeNot{
+    font-size: 40px;
+    opacity: 1;
+    transition: 0.1s;
+    cursor: pointer; 
+position: relative;
+left: 24.5cm;
+bottom: 60px;
+}
+#closeNot:hover{
+    opacity: 0.4;
+}
+.navbar{
+    display: block;
+    position: fixed;
+    width: 100%;
+    padding-top: 17px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 21%, rgba(255,255,255,1) 67%);
+    z-index: 3000000;
+}
+
+.shopifylogo{
+    width: 125px;
+position: relative;
+left: 245px;
+}
+ul {
+    display:flex;
+    
+ }
+ ul li{
+    display: flex;
+    margin: 17px;
+    margin-top: 15px;
+    font-family:'Shopify Sans Web Regular';
+    position: relative;
+    bottom: 62px;
+    left: 360px;
+    
+ }
+ ul li a{
+    display:flex;
+    text-decoration: none;
+    color: black;
+ }
+ ul li a:hover{
+    text-decoration: underline;
+ }
+ .arrow{
+    position: relative;
+    top: 3px;
+ }
+ .login{
+    position: absolute;
+    display: inline;
+    top: 25px;
+    right: 11.5cm;
+ }
+.login a{
+    font-family: 'Shopify Sans Web Regular', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+/* try it button */
+.tryit{
+    display: inline;
+position: absolute;
+top: 13px;
+right:6.9cm;
+font-family: 'Shopify Sans Web Regular', sans-serif;
+font-size: 14px;
+color:rgb(255, 255, 255);
+   background-color: black;
+transition: 0.25s;
+   text-decoration: none;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   padding-left: 25px;
+   padding-right: 25px;
+   font-weight: bold;
+   border-radius: 30px;
+}
+
+.tryit:hover{
+    
+    opacity: 0.8;
+}
+.backgroundgrad{
+    width:100%;
+    height: 1000px;
+    background: rgb(255,255,255);
+display:inline-flex;
+background-size: 40px 40px;
+    background: linear-gradient(29deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(156,245,214,1) 58%, rgba(148,185,243,1) 86%);
+z-index: -20;
+}
+.img1{
+border-radius: 10px;
+content: "";
+display: block;
+height: 10px;
+
+}
+.MagicScroll{
+    position: absolute;
+    left: 30cm;
+    
+}
+.trialbut{
+    z-index: 20;
+    display: inline-block;
+    position: relative;
+    margin-top: 150px;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 15px;
+    height: 15px;
+    border-width: 1px;
+    border: 1px solid rgba(155, 155, 155, 0.3);
+    padding-bottom:20px ;
+    padding-left: 25px;
+    padding-right: 25px ;
+    right: 300px;
+    bottom: 30px;
+}
+.trialbut:hover{
+    border: 1px solid rgba(70, 70, 70, 0.3);
+}
+.trialbut a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Shopify Sans Web Regular';
+}
+.texth1{
+    position: relative;
+    top: 150px;
+    font-family: 'Shopify Sans Web Regular';
+right: 600px;
+width: 13cm;
+height:7.5cm;
+font-size: 48px;
+line-height: 1;
+}
+.textp {
+    width: 16cm;
+    font-size: 22px;
+line-height: 1.5;
+position: relative;
+bottom: 25px;
+}
+.inputbut{
+    position: relative;
+    width: 400px;
+    top: 660px;
+    right: 1100px;
+}
+#email{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 350px;
+    padding-left: 30px;
+    border-radius: 50px;
+    border-style: solid;
+    border: 1px;
+    font-size: 16px;
+}
+#tryit2{
+    display: inline;
+    position: relative;
+    font-family: 'Shopify Sans Web Regular', sans-serif;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+       background-color: black;
+       padding-top: 16px;
+       padding-bottom: 16px;
+       padding-left: 35px;
+       padding-right: 35px;
+       font-weight: bold;
+       border-radius: 30px;
+       bottom: 65px;
+       left: 385px;
+       transition: 0.2s;
+}
+.tryit2:hover{
+    opacity: 0.8;
+}
+.inputbut p{
+    font-family: 'Shopify Sans Web Regular', sans-serif;
+    font-size: 13px;
+    position: relative;
+    bottom: 40px;
+    left: 5px;
+    
+}
+.backgroundgrad2{
+    height: 300px;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+position: absolute;
+top: 800px;
+z-index: 50;
+}
+.underheader{
+    position: absolute;
+    width: 800px;
+    z-index: 700;
+    top: 930px;
+    right: 1200px;
+
+}
+.underheader img{
+width: 900px;
+}
+.headerglope{
+    font-family: 'Shopify Sans Web Regular', sans-serif;
+    position: absolute;
+    left: 830px;
+    z-index: 100;
+bottom:-350px;
+}
+.headerglope h1{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 0.4;
+}
+.textgrad{
+   display: inline-block;
+    background: rgb(233,249,244);
+background: linear-gradient(90deg, rgba(233,249,244,1) 0%, rgba(242,238,254,1) 100%);
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 5px;
+}
+.boxes{
+    position: absolute;
+    left: 850px;
+    bottom: -500px;
+    display: flex;
+    font-family: 'Shopify Sans Web Regular', sans-serif;
+    line-height: 0.5;
+}
+.boxes2{
+    position: absolute;
+  left: 850px;
+    bottom: -650px;
+    display: flex;
+    font-family: 'Shopify Sans Web Regular', sans-serif;
+    line-height: 0.5;
+}
+.box1{
+position: relative;
+font-size: 20px;
+
+}
+.box2{
+    position: relative;
+    left: 200px;
+    font-size: 20px;
+}
+.box3{
+    position: relative;
+    font-size: 20px;
+
+}
+.box4{
+    position: relative;
+    left: 210px;
+    font-size: 20px;
+}
+.grad1{
+    height: 80px;
+    width: 4px;
+    margin: 20px;
+    background: rgb(1,188,224);
+    background: linear-gradient(0deg, rgba(1,188,224,1) 0%, rgba(1,223,166,1) 100%);
+}
+.grad2{
+    height: 80px;
+    width: 4px;
+    margin: 20px;
+    background: rgb(1,188,224);
+    background: linear-gradient(0deg, rgba(1,188,224,1) 0%, rgba(1,223,166,1) 100%);
+    left: 200px;
+    position: relative;
+}
+.grad3{
+    height: 80px;
+    width: 4px;
+    margin: 20px;
+    background: rgb(1,188,224);
+    background: linear-gradient(0deg, rgba(1,188,224,1) 0%, rgba(1,223,166,1) 100%);
+}
+.grad4{
+    height: 80px;
+    width: 4px;
+    margin: 20px;
+    left: 210px;
+    position: relative;
+    background: rgb(1,188,224);
+    background: linear-gradient(0deg, rgba(1,188,224,1) 0%, rgba(1,223,166,1) 100%);
+}
+.textpos{
+  position: absolute;
+    top: 1775px; 
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    font-weight: bold;
+    color: #09455F;
+    left: 250px;
+}
+.item1{
+    height: 200px;
+    width: 220px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+border-radius: 10px;
+font-family: 'Shopify Sans Web Regular', sans-serif; 
+margin: 10px;
+font-size: 16px;
+padding: 20px;
+}
+.item1 h1{
+    font-size: 18px;
+}
+.item2{
+    height: 200px;
+    width: 220px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    margin: 10px;
+    font-size: 16px;
+padding: 20px;
+}
+.item2 h1{
+    font-size: 18px;
+}
+.item3{
+    height: 200px;
+    width: 220px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    margin: 10px;
+    font-size: 16px;
+padding: 20px;
+}
+.item3 h1{
+    font-size: 18px;
+}
+.item4{
+    height: 200px;
+    width: 220px;;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    margin: 10px;
+    font-size: 16px;
+padding: 20px;
+}
+.item4 h1{
+    font-size: 18px;
+}
+.item5{
+    height: 200px;
+    width: 220px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    margin: 10px;
+    font-size: 16px;
+padding: 20px;
+}
+.item5 h1{
+    font-size: 18px;
+}
+.Container{
+    display: flex;
+    position: absolute;
+    top: 1850px;
+    justify-content: center;
+    width: 100%;
+    left: -10px;
+}
+.footerlogo{
+    width: 100%;
+    height: 24cm;
+    position: absolute;
+    top: 2200px;
+    display: flex;
+}
+.logobot{
+    font-size: 45px;
+    position: relative;
+    top: 25px;
+    left: 245px;
+}
+.section1{
+    width: 200px;
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    height: 300px;
+    top: 40px;
+    
+}
+.section1 h1{
+    font-size: 17px;
+}
+.section1 a{
+    text-decoration: none;
+    color: black;
+}
+.section1 a:hover{
+    text-decoration: underline;
+}
+.section2{
+    width: 200px;
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    display: inline-block;
+    position: relative;
+    height: 300px;
+left: 700px;
+top: 40px;
+}
+.section2 a{
+    text-decoration: none;
+    color: black;
+}
+.section2 a:hover{
+    text-decoration: underline;
+}
+.section2 h1{
+    font-size: 17px;
+}
+.section3{
+    width: 200px;
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    display: inline-block;
+    position: relative;
+    height: 300px;
+left: 800px;
+top: 40px;
+}
+.section3 a{
+    text-decoration: none;
+    color: black;
+}
+.section3 a:hover{
+    text-decoration: underline;
+}
+.section3 h1{
+    font-size: 17px;
+}
+.section4{
+    width: 200px;
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    display: inline-block;
+    position: relative;
+    height: 300px;
+left: 900px;
+top: 40px;
+}
+.section4 a{
+    text-decoration: none;
+    color: black;
+}
+.section4 a:hover{
+    text-decoration: underline;
+}
+.section4 h1{
+    font-size: 17px;
+}
+.section5{
+    width: 200px;
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    display: inline-block;
+    position: relative;
+    height: 300px;
+top: 500px;
+left: 240px;
+}
+.section5 a{
+    text-decoration: none;
+    color: black;
+}
+.section5 a:hover{
+    text-decoration: underline;
+}
+.section5 h1{
+    font-size: 17px;
+}
+.section6{
+    width: 200px;
+    font-family: 'Shopify Sans Web Regular', sans-serif; 
+    display: inline-block;
+    position: relative;
+    height: 300px;
+top: 500px;
+left: 310px;
+}
+.section6 a{
+    text-decoration: none;
+    color: black;
+}
+.section6 a:hover{
+    text-decoration: underline;
+}
+.section6 h1{
+    font-size: 17px;
+}
+hr {
+    width: 100cm;
+    height: 2px;
+    background-color: black;
+    border: none;
+    position: relative;
+    top: 800px;
+    right: 300px;
+    display: inline-flex; 
+    z-index: -200;
+  }
